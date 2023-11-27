@@ -10,6 +10,6 @@ public class RocketLauncherBehavior : MonoBehaviour
     [ContextMenu("TestFire")]
     public void FireRocket()
     {
-        Instantiate(_rocketPrefab,_launchPoint.transform.position,_launchPoint.transform.rotation);
+        Instantiate(_rocketPrefab, _launchPoint.transform.position, _launchPoint.transform.rotation);
     }
 }
